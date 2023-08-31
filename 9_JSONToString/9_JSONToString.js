@@ -1,7 +1,8 @@
 //9. Реализовать функцию конвертации JSON в строку
-
+//JSON поддерживает строки, числа, булевы значения, массивы и объекты.
 const dataJSON = {
     "name": "John Doe",
+    "last_name": null,
     "age": 30,
     "isStudent": false,
     "address": {
@@ -73,16 +74,13 @@ function JSONStringify(data) {
     };
     //Проверяем, является ли входящее значение или NaN или Infinity или Null
     const nullDataTypes = (value) => {
-        return isNotANumber(value) || isInfinity(value) || isNull(value);
+        return isNotANumber(value) || isInfinity(value) || isNull(value) || isUndefined(value) || isFunction(value) || isSymbol(value);
     }
     //Проверяем, является ли входящее значение или числом или строкой или boolean
     const checkingForSimpleType = (value) => {
         return isNumber(value) || isString(value) || isBoolean(value);
     };
     //Проверяем, является ли входящее значение одним из типав котрый необходимо игнорировать
-    const ignoreDataTypes = (value) => {
-        return isUndefined(value) || isFunction(value) || isSymbol(value);
-    };
     // Если data соответсвует условию (входящее значение или NaN или Infinity или Null)
     if(nullDataTypes(data)) {
         //возвращаем null
@@ -117,7 +115,7 @@ function JSONStringify(data) {
             const eachValue = data[eachKey];
             //проверяем явзяется ли значение одним их типов который мы должны игнорировать или нет. Если да, то ничего не  записываем, если нет
             //записываем ключ и значение в строку, рекурсией проверяя что лежит в значении объекта
-            objStr += (!ignoreDataTypes(eachValue)) ? `"${eachKey}":${JSONStringify(eachValue)},` : '';
+            objStr += `"${eachKey}":${JSONStringify(eachValue)},`;
         });
         //записываем полученную строку в фигурные скобки
         return `{` + removeComma(objStr) + `}`;
@@ -136,4 +134,4 @@ function JSONStringify(data) {
     }
 }
 
-// console.log( JSON.stringify(dataJSON) === JSONStringify(dataJSON)) //true
+console.log( JSON.stringify(dataJSON) === JSONStringify(dataJSON)) //true

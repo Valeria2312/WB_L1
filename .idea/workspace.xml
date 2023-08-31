@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/7_CollectionFunctions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Closures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_JSONToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Palindrome/1_Palindrome2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_JSONToString/9_JSONToString2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Palindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_Palindrome/1_Palindrome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_GetWord.js" beforeDir="false" afterPath="$PROJECT_DIR$/4_GetWord/4_GetWord.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_GetWord_launch.js" beforeDir="false" afterPath="$PROJECT_DIR$/4_GetWord/4_GetWord_launch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_CollectionFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_JSONToString.js" beforeDir="false" afterPath="$PROJECT_DIR$/9_JSONToString/9_JSONToString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,29 +39,37 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.9_JSONToString.js">
-    <configuration name="5_JSONToLinkedList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/5_JSONToLinkedList.js" working-dir="$PROJECT_DIR$">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Проекты\WB_L1\7_CollectionFunctions" />
+      <recent name="D:\Проекты\WB_L1\1_Palindrome" />
+      <recent name="D:\Проекты\WB_L1\4_GetWord" />
+      <recent name="D:\Проекты\WB_L1\9_JSONToString" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.1_Palindrome2.js">
+    <configuration name="1_Palindrome2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1_Palindrome/1_Palindrome2.js" working-dir="$PROJECT_DIR$/1_Palindrome">
       <method v="2" />
     </configuration>
-    <configuration name="6_SortingObjects.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/6_SortingObjects.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="7_CollectionFunctions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/7_CollectionFunctions.js" working-dir="$PROJECT_DIR$">
+    <configuration name="7_CollectionFunctions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="8_Closures.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/8_Closures.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="9_JSONToString.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9_JSONToString.js" working-dir="$PROJECT_DIR$">
+    <configuration name="9_JSONToString2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9_JSONToString/9_JSONToString2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9_JSONToString.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9_JSONToString/9_JSONToString.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.1_Palindrome2.js" />
         <item itemvalue="Node.js.9_JSONToString.js" />
+        <item itemvalue="Node.js.9_JSONToString2.js" />
         <item itemvalue="Node.js.8_Closures.js" />
         <item itemvalue="Node.js.7_CollectionFunctions.js" />
-        <item itemvalue="Node.js.6_SortingObjects.js" />
-        <item itemvalue="Node.js.5_JSONToLinkedList.js" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +84,7 @@
       <workItem from="1693297251959" duration="16000" />
       <workItem from="1693297270620" duration="27798000" />
       <workItem from="1693407431518" duration="5257000" />
-      <workItem from="1693474461616" duration="19171000" />
+      <workItem from="1693474461616" duration="22887000" />
     </task>
     <servers />
   </component>
