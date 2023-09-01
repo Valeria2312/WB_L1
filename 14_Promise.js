@@ -15,10 +15,13 @@ function loadImage(url) {
             resolve(image);
             body.appendChild(image);
         };
+        image.onerror = () => {
+            reject(reject(new Error(`Не удалось загрузить изображение: ${url}`)));
+        }
 
     })
 
 }
-loadImage("https://w.forfun.com/fetch/dd/dd1e9dd0f6f574a32280a8e21fe7c4c6.jpeg").then(resolve => {
-    console.log(resolve)
-})
+loadImage("https://w.forfun.com/fetch/dd/dd1e9dd0f6f574a32280a8e21fe7c4c6.jpeg")
+    .then(resolve => console.log("Картинка загрузилась", resolve))
+    .catch(reject => console.log(reject))
