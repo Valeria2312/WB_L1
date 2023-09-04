@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/17_GeoCoding/17_GeoCoding.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_GeoCoding/17_GeoCoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage_2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <workItem from="1693297270620" duration="27798000" />
       <workItem from="1693407431518" duration="5257000" />
       <workItem from="1693474461616" duration="46074000" />
-      <workItem from="1693815388482" duration="16083000" />
+      <workItem from="1693815388482" duration="19440000" />
     </task>
     <servers />
   </component>
