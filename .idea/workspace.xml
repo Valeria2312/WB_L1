@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/15_AsyncAwait.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/14_Promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Promise.html" beforeDir="false" afterPath="$PROJECT_DIR$/14_Promise/14_Promise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/14_Promise/14_Promise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +35,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Проекты\WB_L1\14_Promise" />
       <recent name="D:\Проекты\WB_L1\7_CollectionFunctions" />
       <recent name="D:\Проекты\WB_L1\1_Palindrome" />
       <recent name="D:\Проекты\WB_L1\4_GetWord" />
       <recent name="D:\Проекты\WB_L1\9_JSONToString" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.14_Promise.js">
-    <configuration name="10_ConvertingStringToJSON.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/10_ConvertingStringToJSON.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.15_AsyncAwait.js">
     <configuration name="11_ClosuresAndScopes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/11_ClosuresAndScopes.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -52,16 +52,19 @@
     <configuration name="13_ClassFigure.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/13_ClassFigure.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="14_Promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/14_Promise.js" working-dir="$PROJECT_DIR$">
+    <configuration name="14_Promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/14_Promise/14_Promise.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="15_AsyncAwait.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/15_AsyncAwait.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.15_AsyncAwait.js" />
         <item itemvalue="Node.js.14_Promise.js" />
         <item itemvalue="Node.js.13_ClassFigure.js" />
         <item itemvalue="Node.js.12_ChangeObject.js" />
         <item itemvalue="Node.js.11_ClosuresAndScopes.js" />
-        <item itemvalue="Node.js.10_ConvertingStringToJSON.js" />
       </list>
     </recent_temporary>
   </component>
@@ -76,7 +79,8 @@
       <workItem from="1693297251959" duration="16000" />
       <workItem from="1693297270620" duration="27798000" />
       <workItem from="1693407431518" duration="5257000" />
-      <workItem from="1693474461616" duration="45945000" />
+      <workItem from="1693474461616" duration="46074000" />
+      <workItem from="1693815388482" duration="2457000" />
     </task>
     <servers />
   </component>
