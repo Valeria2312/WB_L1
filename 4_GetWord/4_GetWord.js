@@ -2,7 +2,7 @@
 // 	Функцию надо упаковать в модуль.
 
 //Принимает на вход число и массив
-export function getWord(number, cases) {
+export default function getWord(number, cases) {
     if(number % 10 === 1 && number % 100 !== 11) {
         return cases[0]
     }
