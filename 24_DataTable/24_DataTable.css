@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.pagination-list {
+    display: flex;
+    list-style-type: none;
+    /*gap: 20px;*/
+}
+
+.pagination-item {
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.pagination__item--active {
+    font-weight: 800;
+    color: gold;
+}
