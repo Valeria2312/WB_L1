@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/24_DataTable/24_DataTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_DataTable/24_DataTable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_DataTable/24_DataTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1693407431518" duration="5257000" />
       <workItem from="1693474461616" duration="46074000" />
       <workItem from="1693815388482" duration="21651000" />
-      <workItem from="1693914723400" duration="34837000" />
+      <workItem from="1693914723400" duration="39017000" />
     </task>
     <servers />
   </component>
