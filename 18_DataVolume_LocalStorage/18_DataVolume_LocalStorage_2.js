@@ -10,9 +10,11 @@ function changeLocalStorage() {
                 localStorage.setItem('test', new Array((i * 1024) + 1).join('a'));
             }
         } catch (e) {
+            console.log(i - 250);
             localStorage.removeItem('test');
             //убираем то что уже не поместилось
             localStorage.setItem('size', i - 250);
+
         }
     }
 

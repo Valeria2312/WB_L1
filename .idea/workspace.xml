@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage_2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_VkPosts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_DataTable/24_DataTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/24_DataTable/24_DataTable.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +25,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.15.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.48",
-    "last_opened_file_path": "D:/Проекты/WB_L1",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.48&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Проекты/WB_L1&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Проекты\WB_L1\16_UseMoment" />
@@ -84,6 +87,7 @@
       <workItem from="1693474461616" duration="46074000" />
       <workItem from="1693815388482" duration="21651000" />
       <workItem from="1693914723400" duration="39017000" />
+      <workItem from="1694081552985" duration="13208000" />
     </task>
     <servers />
   </component>
