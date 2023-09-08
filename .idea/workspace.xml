@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_ConvertingStringToJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/10_ConvertingStringToJSON/10_ConvertingStringToJSON.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_ClosuresAndScopes.js" beforeDir="false" afterPath="$PROJECT_DIR$/11_ClosuresAndScopes/11_ClosuresAndScopes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ChangeObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/12_ChangeObject/12_ChangeObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ClassFigure.js" beforeDir="false" afterPath="$PROJECT_DIR$/13_ClassFigure/13_ClassFigure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_AsyncAwait.js" beforeDir="false" afterPath="$PROJECT_DIR$/15_AsyncAwait/15_AsyncAwait.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StrangeNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_StrangeNumbers/2_StrangeNumbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_MathX.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_MathX/3_MathX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_JSONToLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/5_JSONToLinkedList/5_JSONToLinkedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_SortingObjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/6_SortingObjects/6_SortingObjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Closures.js" beforeDir="false" afterPath="$PROJECT_DIR$/8_Closures/8_Closures.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +85,7 @@
       <workItem from="1693815388482" duration="21651000" />
       <workItem from="1693914723400" duration="39017000" />
       <workItem from="1694081552985" duration="16302000" />
-      <workItem from="1694164975536" duration="9709000" />
+      <workItem from="1694164975536" duration="10427000" />
     </task>
     <servers />
   </component>
