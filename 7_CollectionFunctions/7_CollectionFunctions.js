@@ -8,13 +8,13 @@
 //Решение 1
 //объявляем функции
 function functionFirst(num) {
-    return num + 10
+  return num + 10;
 }
 function functionSecond(num) {
-    return num * 7
+  return num * 7;
 }
 function functionThird(num) {
-    return num * 3
+  return num * 3;
 }
 //Собираем функции в массив
 const functionArray = [functionFirst, functionSecond, functionThird];
@@ -23,6 +23,4 @@ const inputNumber = 5;
 // Применяем функции последовательно. Передаем в метод reduce очередную функцию и при первом вызове inputNumber,
 // в функцию передаем аккумулятор (результат предыдущего вызова этой функции).
 const finalResult = functionArray.reduce((acc, func) => func(acc), inputNumber);
-console.log(`Результат: ${finalResult}`)
-
-
+console.log(`Результат: ${finalResult}`);

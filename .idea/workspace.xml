@@ -2,8 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_ConvertingStringToJSON/10_ConvertingStringToJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/10_ConvertingStringToJSON/10_ConvertingStringToJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_ClosuresAndScopes/11_ClosuresAndScopes.js" beforeDir="false" afterPath="$PROJECT_DIR$/11_ClosuresAndScopes/11_ClosuresAndScopes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_ChangeObject/12_ChangeObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/12_ChangeObject/12_ChangeObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_ClassFigure/13_ClassFigure.js" beforeDir="false" afterPath="$PROJECT_DIR$/13_ClassFigure/13_ClassFigure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Promise/14_Promise.html" beforeDir="false" afterPath="$PROJECT_DIR$/14_Promise/14_Promise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Promise/14_Promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/14_Promise/14_Promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_AsyncAwait/15_AsyncAwait.js" beforeDir="false" afterPath="$PROJECT_DIR$/15_AsyncAwait/15_AsyncAwait.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_UseMoment/16_UseMoment.js" beforeDir="false" afterPath="$PROJECT_DIR$/16_UseMoment/16_UseMoment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_UseMoment/16_UseMoment_launch.js" beforeDir="false" afterPath="$PROJECT_DIR$/16_UseMoment/16_UseMoment_launch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_GeoCoding/17_GeoCoding.html" beforeDir="false" afterPath="$PROJECT_DIR$/17_GeoCoding/17_GeoCoding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_GeoCoding/17_GeoCoding.js" beforeDir="false" afterPath="$PROJECT_DIR$/17_GeoCoding/17_GeoCoding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.html" beforeDir="false" afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_VkPosts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Palindrome/1_Palindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_Palindrome/1_Palindrome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Palindrome/1_Palindrome2.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_Palindrome/1_Palindrome2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_MemoryLocalStorage/20_MemoryLocalStorage.html" beforeDir="false" afterPath="$PROJECT_DIR$/20_MemoryLocalStorage/20_MemoryLocalStorage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_MemoryLocalStorage/20_MemoryLocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/20_MemoryLocalStorage/20_MemoryLocalStorage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21_callbackSize/21_callbackSize.html" beforeDir="false" afterPath="$PROJECT_DIR$/21_callbackSize/21_callbackSize.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21_callbackSize/21_callbackSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/21_callbackSize/21_callbackSize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22_documentWrite/22_documentWrite.html" beforeDir="false" afterPath="$PROJECT_DIR$/22_documentWrite/22_documentWrite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22_documentWrite/22_documentWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/22_documentWrite/22_documentWrite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23_PasswordComplexityAnalyzer/23_PasswordComplexityAnalyzer.html" beforeDir="false" afterPath="$PROJECT_DIR$/23_PasswordComplexityAnalyzer/23_PasswordComplexityAnalyzer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23_PasswordComplexityAnalyzer/23_PasswordComplexityAnalyzer.js" beforeDir="false" afterPath="$PROJECT_DIR$/23_PasswordComplexityAnalyzer/23_PasswordComplexityAnalyzer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23_PasswordComplexityAnalyzer/23_PasswordComplexityAnalyzer_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/23_PasswordComplexityAnalyzer/23_PasswordComplexityAnalyzer_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_DataTable/24_DataTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/24_DataTable/24_DataTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_DataTable/24_DataTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/24_DataTable/24_DataTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_DataTable/24_DataTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/24_DataTable/24_DataTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25_styleCss/25_styleCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/25_styleCss/25_styleCss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25_styleCss/25_styleCss.js" beforeDir="false" afterPath="$PROJECT_DIR$/25_styleCss/25_styleCss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25_styleCss/25_styleCss_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/25_styleCss/25_styleCss_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.js" beforeDir="false" afterPath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27_AnimationForElement/27_AnimationForElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/27_AnimationForElement/27_AnimationForElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27_AnimationForElement/27_AnimationForElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/27_AnimationForElement/27_AnimationForElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/28_AddElementFromTemplates/28_AddElementFromTemplates.html" beforeDir="false" afterPath="$PROJECT_DIR$/28_AddElementFromTemplates/28_AddElementFromTemplates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/28_AddElementFromTemplates/28_AddElementFromTemplates.js" beforeDir="false" afterPath="$PROJECT_DIR$/28_AddElementFromTemplates/28_AddElementFromTemplates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.css" beforeDir="false" afterPath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.html" beforeDir="false" afterPath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_StrangeNumbers/2_StrangeNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_StrangeNumbers/2_StrangeNumbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_MathX/3_MathX.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_MathX/3_MathX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_GetWord/4_GetWord.js" beforeDir="false" afterPath="$PROJECT_DIR$/4_GetWord/4_GetWord.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_GetWord/4_GetWord_launch.js" beforeDir="false" afterPath="$PROJECT_DIR$/4_GetWord/4_GetWord_launch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_JSONToLinkedList/5_JSONToLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/5_JSONToLinkedList/5_JSONToLinkedList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_SortingObjects/6_SortingObjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/6_SortingObjects/6_SortingObjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions2.js" beforeDir="false" afterPath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Closures/8_Closures.js" beforeDir="false" afterPath="$PROJECT_DIR$/8_Closures/8_Closures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_JSONToString/9_JSONToString.js" beforeDir="false" afterPath="$PROJECT_DIR$/9_JSONToString/9_JSONToString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_JSONToString/9_JSONToString2.js" beforeDir="false" afterPath="$PROJECT_DIR$/9_JSONToString/9_JSONToString2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,19 +79,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.15.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.48",
-    "last_opened_file_path": "D:/Проекты/WB_L1",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.48&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Проекты/WB_L1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Проекты\\WB_L1\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Проекты\WB_L1\15_AsyncAwait" />
@@ -84,7 +145,9 @@
       <workItem from="1693815388482" duration="21651000" />
       <workItem from="1693914723400" duration="39017000" />
       <workItem from="1694081552985" duration="16302000" />
-      <workItem from="1694164975536" duration="10567000" />
+      <workItem from="1694164975536" duration="11451000" />
+      <workItem from="1694180025325" duration="436000" />
+      <workItem from="1694180682105" duration="426000" />
     </task>
     <servers />
   </component>

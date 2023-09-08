@@ -12,13 +12,13 @@
 // по производительности, особенно если они выполняются синхронно и изменяют содержимое страницы динамически.
 i = 0;
 const func = () => {
-    document.write(document.write());
-    i++;
-    func();
+  document.write(document.write());
+  i++;
+  func();
 };
 try {
-    func();
-i++
-}catch (e){
-    console.log(i)
+  func();
+  i++;
+} catch (e) {
+  console.log(i);
 }

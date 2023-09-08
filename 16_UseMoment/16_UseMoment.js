@@ -6,5 +6,5 @@ import moment from "moment/moment.js";
 
 // экспортруем модуль
 export default function useMoment() {
-  return moment().format('MMMM Do YYYY, h:mm:ss a');
+  return moment().format("MMMM Do YYYY, h:mm:ss a");
 }

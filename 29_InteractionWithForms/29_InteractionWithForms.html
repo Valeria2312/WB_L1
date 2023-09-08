@@ -1,27 +1,37 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="29_InteractionWithForms.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="29_InteractionWithForms.css" />
     <title>Interaction With Forms</title>
-</head>
-<body>
-<form>
-    <input type="text" id="name" name="name">
-    <input type="email" id="email" name="email">
-    <input type="password" id="password" name="password">
-    <input type="submit">
-</form>
-<div class="overlay" id="overlay-modal">
-    <div class="modal" data-modal="1">
-        <svg class="modal__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="name" name="name" />
+      <input type="email" id="email" name="email" />
+      <input type="password" id="password" name="password" />
+      <input type="submit" />
+    </form>
+    <div class="overlay" id="overlay-modal">
+      <div class="modal" data-modal="1">
+        <svg
+          class="modal__cross"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+          />
+        </svg>
         <p class="modal__title">Данные для запроса</p>
         <p class="modal__text"></p>
+      </div>
     </div>
-</div>
-<script src="29_InteractionWithForms.js"></script>
-</body>
+    <script src="29_InteractionWithForms.js"></script>
+  </body>
 </html>
