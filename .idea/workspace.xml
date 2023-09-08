@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/20_MemoryLocalStorage/20_MemoryLocalStorage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_MemoryLocalStorage/20_MemoryLocalStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27_AnimationForElement/27_AnimationForElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27_AnimationForElement/27_AnimationForElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28_AddElementFromTemplates/28_AddElementFromTemplates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28_AddElementFromTemplates/28_AddElementFromTemplates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29_InteractionWithForms/29_InteractionWithForms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,19 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.48&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Проекты/WB_L1&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.15.0",
+    "javascript.nodejs.core.library.typings.version": "16.18.48",
+    "last_opened_file_path": "D:/Проекты/WB_L1",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Проекты\WB_L1\16_UseMoment" />
@@ -84,7 +91,8 @@
       <workItem from="1693474461616" duration="46074000" />
       <workItem from="1693815388482" duration="21651000" />
       <workItem from="1693914723400" duration="39017000" />
-      <workItem from="1694081552985" duration="14737000" />
+      <workItem from="1694081552985" duration="16302000" />
+      <workItem from="1694164975536" duration="9417000" />
     </task>
     <servers />
   </component>
