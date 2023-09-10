@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec451da-b7f9-45e9-82bd-97fd353add9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/10_ConvertingStringToJSON/10_ConvertingStringToJSON.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_ClosuresAndScopes/11_ClosuresAndScopes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_ChangeObject/12_ChangeObject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_ClassFigure/13_ClassFigure.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15_AsyncAwait/15_AsyncAwait.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_UseMoment/16_UseMoment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Palindrome/1_Palindrome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_StrangeNumbers/2_StrangeNumbers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_StrangeNumbers/2_StrangeNumbers_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_MathX/3_MathX.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_MathX/3_MathX_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_GetWord/4_GetWord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_JSONToLinkedList/5_JSONToLinkedList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_SortingObjects/6_SortingObjects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Closures/8_Closures.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_JSONToString/9_JSONToString.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_ConvertingStringToJSON/10_ConvertingStringToJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/10_ConvertingStringToJSON/10_ConvertingStringToJSON.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Promise/14_Promise.html" beforeDir="false" afterPath="$PROJECT_DIR$/14_Promise/14_Promise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Promise/14_Promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/14_Promise/14_Promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_AsyncAwait/15_AsyncAwait.js" beforeDir="false" afterPath="$PROJECT_DIR$/15_AsyncAwait/15_AsyncAwait.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_UseMoment/16_UseMoment.js" beforeDir="false" afterPath="$PROJECT_DIR$/16_UseMoment/16_UseMoment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_UseMoment/16_UseMoment_launch.js" beforeDir="false" afterPath="$PROJECT_DIR$/16_UseMoment/16_UseMoment_launch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.html" beforeDir="false" afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/18_DataVolume_LocalStorage/18_DataVolume_LocalStorage_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/19_VkPosts/19_VkPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Palindrome/1_Palindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_Palindrome/1_Palindrome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Palindrome/1_Palindrome2.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_Palindrome/1_Palindrome2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.js" beforeDir="false" afterPath="$PROJECT_DIR$/26_RecursiveOfDOM/26_RecursiveOfDOM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StrangeNumbers/2_StrangeNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_StrangeNumbers/2_StrangeNumbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_MathX/3_MathX.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_MathX/3_MathX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_GetWord/4_GetWord.js" beforeDir="false" afterPath="$PROJECT_DIR$/4_GetWord/4_GetWord.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_JSONToLinkedList/5_JSONToLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/5_JSONToLinkedList/5_JSONToLinkedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions2.js" beforeDir="false" afterPath="$PROJECT_DIR$/7_CollectionFunctions/7_CollectionFunctions2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_JSONToString/9_JSONToString2.js" beforeDir="false" afterPath="$PROJECT_DIR$/9_JSONToString/9_JSONToString2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +93,7 @@
       <workItem from="1694190923033" duration="174000" />
       <workItem from="1694191171621" duration="4051000" />
       <workItem from="1694280554962" duration="1125000" />
-      <workItem from="1694329609922" duration="2980000" />
+      <workItem from="1694329609922" duration="3967000" />
     </task>
     <servers />
   </component>
