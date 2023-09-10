@@ -25,5 +25,7 @@ async function promisesInSeries(asyncFns) {
   // результат выполнения самой последней функции
   return param;
 }
-const functionArray = [firstPromise, secondPromise, thirdPromise];
-console.log(await promisesInSeries(functionArray));
+const functionArray2 = [firstPromise, secondPromise, thirdPromise];
+(async () => {
+  console.log(`Результат:`, await promisesInSeries(functionArray2));
+})();

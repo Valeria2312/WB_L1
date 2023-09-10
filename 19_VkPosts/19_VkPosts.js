@@ -7,6 +7,7 @@
 const postList = document.querySelector(".post-list");
 const widget = document.querySelector(".widget");
 let posts = [];
+const arrSave = []
 // Переменная для проверки, выполняется ли запрос в данный момент
 let isLoading = false;
 // Смещение, необходимое для загрузки следующих постов
@@ -17,9 +18,9 @@ const localStorageKey = "cachedPosts";
 const sizeLocalStorage = 5 * 1024 * 1024;
 
 function callbackFunc(result) {
-  createPost(result.response);
+  createPost(result.response.items);
   isLoading = false;
-  saveData();
+  saveData(result.response);
 }
 
 function getPosts() {
@@ -27,7 +28,7 @@ function getPosts() {
     // Проверяем, не выполняется ли запрос уже
     isLoading = true;
     //Создаем скрипт
-    var script = document.createElement("SCRIPT");
+    const script = document.createElement("SCRIPT");
     //Идентификатор пользователя или сообщества, со стены которого необходимо получить записи
     const owner_id = -1;
     //Версия
@@ -46,7 +47,6 @@ function getPosts() {
     offset += count;
   }
 }
-getPosts();
 
 // Создание постов
 function createPost(data) {
@@ -57,7 +57,7 @@ function createPost(data) {
     day: "numeric",
   };
   // Создаем массив постов из полученных данных
-  data.items.map((item) => {
+  data.map((item) => {
     const postElement = `<li class="post-list__item">
           <div class="post-list__item__text">${item.text}</div>
           <div class="post-list__item__subText">
@@ -92,12 +92,15 @@ function loadCachedData() {
   const cachedData = localStorage.getItem(localStorageKey);
   // Если данные есть, отображаем их
   if (cachedData) {
-    // Парсим данные из localStorage в массив постов
-    posts = JSON.parse(cachedData);
-    // Устанавливаем смещение на количество кэшированных постов
-    offset = posts.length;
-    // Отображаем посты из кэша
-    postList.innerHTML = posts.join("");
+    //Парсим данные из localStorage в массив постов
+    const saveData = JSON.parse(cachedData)
+  // Устанавливаем смещение на количество кэшированных постов
+    offset = saveData.length;
+    //рендерим сохраненные данные
+    createPost(saveData)
+  } else {
+    //если нет, запрашиваем новые данные
+    getPosts()
   }
 }
 
@@ -115,7 +118,10 @@ widget.addEventListener("scroll", function () {
 });
 
 // Кэширование данных в localStorage
-function saveData() {
+function saveData(data) {
+  data.items.forEach(item => {
+    arrSave.push(item)
+  })
   // Если количество постов в кэше превышает лимит, удаляем старые
   // Проверяем текущий размер localStorage
   let currentStorageSize = (localStorage.getItem(localStorageKey) || "").length;
@@ -128,6 +134,6 @@ function saveData() {
     currentStorageSize = (JSON.stringify(localStorage.getItem("data")) || "")
       .length;
   }
-  // Обновляем localStorage с новыми данными
-  localStorage.setItem(localStorageKey, JSON.stringify(posts));
+    // Обновляем localStorage с новыми данными
+    localStorage.setItem(localStorageKey, JSON.stringify(arrSave));
 }

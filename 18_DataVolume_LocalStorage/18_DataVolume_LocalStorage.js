@@ -4,8 +4,6 @@
 
 function getMaxLocalStorageSize() {
   try {
-    // Проверяем поддержку localStorage в текущем браузере
-    if (!window.localStorage) return "localStorage is not supported";
     // Создаем тестовые данные размером 1 МБ
     const testData = new Array(1024 * 1024).join("X"); // 1MB of data
     // Попытка хранения данных до тех пор, пока не возникнет исключение

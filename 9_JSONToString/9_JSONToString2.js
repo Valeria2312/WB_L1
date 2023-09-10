@@ -1,7 +1,7 @@
 //еще один вариант реализации
 //JSON поддерживает строки, числа, булевы значения, массивы и объекты.
 
-const dataJSON = {
+const dataJSON2 = {
   name: "John Doe",
   last_name: null,
   age: 30,
@@ -24,7 +24,6 @@ function JSONStringify(data) {
 
   //проверяем содержится ли  один из типов specialTypes в data
   if (specialTypes.includes(data)) {
-    console.log(data);
     return `${data}`;
   }
   //проверяем является ли data number или boolean
@@ -60,4 +59,4 @@ function JSONStringify(data) {
   }
 }
 
-console.log(JSON.stringify(dataJSON) === JSONStringify(dataJSON)); //true
+console.log(JSON.stringify(dataJSON2) === JSONStringify(dataJSON2)); //true

@@ -65,14 +65,16 @@ class Book {
 }
 //функция записи JSON в linkedList
 function jsonToLinckedList() {
+  // Создаем узлы связанного списка на основе JSON-данных
   const nodes = jsonData.map((item) => new Book(item));
   for (let i = 0; i < nodes.length - 1; i++) {
+    // Устанавливаем связи между узлами, чтобы создать связанный список
     nodes[i].next = nodes[i + 1];
   }
+  // Возвращаем связанный список
   return nodes;
 }
 const linkedList = jsonToLinckedList(jsonData);
-
-// console.log(linkedList.data.title); // "Pride and Prejudice"
-// console.log(linkedList.next.data.title); // "1984"
-// console.log(linkedList.next.next.data.authors); // [{firstName: 'Harper',lastName: 'Lee',birthYear: 1926,nationality: 'American'}]
+console.log(linkedList[0].data.title); // "Pride and Prejudice"
+console.log(linkedList[0].next.data.title); // "1984"
+console.log(linkedList[0].next.next.data.authors); // [{firstName: 'Harper',lastName: 'Lee',birthYear: 1926,nationality: 'American'}]

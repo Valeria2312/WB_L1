@@ -4,12 +4,13 @@ function traverseDOM(node) {
   // Выполняйте действия с текущим узлом здесь, например, выведите его в консоль
   console.log(node);
 
-  // Получите дочерние элементы текущего узла
+  // Получаем дочерние элементы текущего узла
   const children = node.childNodes;
 
   // Рекурсивно вызываем функцию для каждого дочернего элемента
   for (let i = 0; i < children.length; i++) {
     const child = children[i];
+    //проверяем
     if (child.nodeType === Node.ELEMENT_NODE) {
       traverseDOM(child);
     }

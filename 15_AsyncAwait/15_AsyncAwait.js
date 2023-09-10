@@ -13,7 +13,6 @@ async function AsyncAwait() {
     promise = await new Promise((resolve, reject) => {
       setTimeout(() => resolve("Результат!"), 3000);
     });
-    console.log(promise);
     //возвращает результат выполнения
     return promise;
   } catch (e) {

@@ -15,7 +15,7 @@ function loadImage(url) {
       body.appendChild(image);
     };
     image.onerror = () => {
-      reject(reject(new Error(`Не удалось загрузить изображение: ${url}`)));
+      reject(new Error(`Не удалось загрузить изображение: ${url}`));
     };
   });
 }
